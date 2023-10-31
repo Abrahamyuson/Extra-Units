@@ -85,7 +85,7 @@
         "name": "Endurance II",
         "prerequisites": ["Endurance I"],
         "uniques": [
-            "[+1] additional attacks per turn"
+            "[+2] additional attacks per turn"
         ],
 		"unitTypes": [
             "Sword",
@@ -109,7 +109,7 @@
         "name": "Endurance III",
         "prerequisites": ["Endurance II"],
         "uniques": [
-            "[+1] Range"
+            "[+2] Range"
         ],
 		"unitTypes": [
             "Archery",
@@ -151,7 +151,7 @@
     },
     {
         "name": "Companionship I",
-		"uniques": ["[+5]% Strength bonus for [Frontier Hunter] units within [1] tiles"],
+		"uniques": ["[+10]% Strength bonus for [Frontier Hunter] units within [1] tiles"],
 		"unitTypes": ["Ranged Frontier Hunter"],
         "row": 21,
         "column": 0
@@ -159,7 +159,7 @@
     {
         "name": "Companionship II",
         "prerequisites": ["Companionship I"],
-		"uniques": ["[+5]% Strength bonus for [Frontier Hunter] units within [2] tiles"],
+		"uniques": ["[+15]% Strength bonus for [Frontier Hunter] units within [2] tiles"],
 		"unitTypes": ["Ranged Frontier Hunter"],
         "row": 21,
         "column": 1
@@ -167,7 +167,7 @@
     {
         "name": "Companionship III",
         "prerequisites": ["Companionship II"],
-		"uniques": ["[+10]% Strength bonus for [Frontier Hunter] units within [2] tiles"],
+		"uniques": ["[+20]% Strength bonus for [Frontier Hunter] units within [2] tiles"],
 		"unitTypes": ["Ranged Frontier Hunter"],
         "row": 21,
         "column": 2
@@ -175,8 +175,8 @@
     {
         "name": "Local knowledge I",
         "uniques": [
-            "[-10]% Strength for enemy [Military] units in adjacent [Fort] tiles",
-            "[-10]% Strength for enemy [Military] units in adjacent [Rough terrain] tiles"
+            "[-20]% Strength for enemy [Military] units in adjacent [Fort] tiles",
+            "[-20]% Strength for enemy [Military] units in adjacent [Rough terrain] tiles"
         ],
 		"unitTypes": ["Ranged Frontier Hunter"],
         "row": 22,
@@ -186,7 +186,7 @@
         "name": "Local knowledge II",
         "prerequisites": ["Local knowledge I"],
         "uniques": [
-            "[+10]% Strength <in [Friendly Land] tiles>",
+            "[+20]% Strength <in [Friendly Land] tiles>",
             "Can see invisible [Land] units <in [Friendly Land] tiles>"
         ],
 		"unitTypes": ["Ranged Frontier Hunter"],
@@ -230,7 +230,7 @@
     {
 		"name": "Escape I",
         "prerequisites": ["Grandparents knowledge"],
-		"uniques": ["[+1] Movement"],
+		"uniques": ["[+2] Movement"],
 		"unitTypes": ["Medical"],
         "row": 32,
         "column": 1
@@ -260,7 +260,7 @@
     {
         "name": "Companionship",
         "prerequisites": ["Words of comfort", "Grandparents knowledge"],
-		"uniques": ["[+1] additional attacks per turn"],
+		"uniques": ["[+2] additional attacks per turn"],
 		"unitTypes": ["Medical"],
         "row": 36,
         "column": 3
