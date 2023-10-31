@@ -10,7 +10,7 @@
             "Scientific": 0
         },
         "uniques": [
-            "Gain enough Faith for [50]% of a Great Prophet",
+            "Gain enough Faith for [75]% of a Great Prophet",
             "Only available <after discovering [Theology]>",
             "Only available <after discovering [Printing Press]>"
             // see https://github.com/yairm210/Unciv/issues/3242#issuecomment-1514617790
@@ -19,7 +19,7 @@
             {
                 "name": "Holy sea",
                 "uniques": [
-                    "[+5]% [Faith] [in all coastal cities]"
+                    "[+20]% [Faith] [in all coastal cities]"
                 ],
                 "row": 1,
                 "column": 2
@@ -27,8 +27,8 @@
             {
                 "name": "Holy capturing",
                 "uniques": [
-                    "Upon capturing a city, receive [5] times its [Faith] production as [Faith] immediately",
-                    "Upon capturing a city, receive [5] times its [Happiness] production as [Faith] immediately <while the empire is happy>"
+                    "Upon capturing a city, receive [25] times its [Faith] production as [Faith] immediately",
+                    "Upon capturing a city, receive [25] times its [Happiness] production as [Faith] immediately <while the empire is happy>"
                 ],
                 "row": 1,
                 "column": 4
@@ -37,7 +37,7 @@
                 "name": "Holy growth",
                 "requires": ["Holy sea"],
                 "uniques": [
-                    "[-5]% Culture cost of natural border growth [in all cities in which the majority religion is a enhanced religion] <while the empire is happy>"
+                    "[-15]% Culture cost of natural border growth [in all cities in which the majority religion is a enhanced religion] <while the empire is happy>"
                 ],
                 "row": 2,
                 "column": 2
@@ -46,10 +46,10 @@
                 "name": "Holy war",
                 "requires": ["Holy capturing"],
                 "uniques": [
-                    "Earn [25]% of the damage done to [Civilian] units as [Faith]",
-                    "Earn [50]% of the damage done to [Military] units as [Faith]",
-                    "Earn [35]% of the damage done to [Civilian] units as [Faith] <when fighting units from a Civilization with more Cities than you>",
-                    "Earn [70]% of the damage done to [Military] units as [Faith] <when fighting units from a Civilization with more Cities than you>"
+                    "Earn [35]% of the damage done to [Civilian] units as [Faith]",
+                    "Earn [70]% of the damage done to [Military] units as [Faith]",
+                    "Earn [50]% of the damage done to [Civilian] units as [Faith] <when fighting units from a Civilization with more Cities than you>",
+                    "Earn [100]% of the damage done to [Military] units as [Faith] <when fighting units from a Civilization with more Cities than you>"
                 ],
                 "row": 2,
                 "column": 4
@@ -64,7 +64,7 @@
                     "Enables conversion of city production to [Faith] <in cities with a [Pagoda]>",
                     "Enables conversion of city production to [Faith] <in cities with a [Stonehenge]>",
 
-                    "[+5 Faith] per [10] population [in holy cities]",
+                    "[+10 Faith] per [5] population [in holy cities]",
                 ],
                 "row": 3,
                 "column": 3
@@ -86,14 +86,14 @@
             "Scientific": 5
         },
         "uniques": [
-            "Gain enough Faith for [5]% of a Great Prophet",
+            "Gain enough Faith for [20]% of a Great Prophet",
             "Only available <after founding a Pantheon>"
         ],
         "policies": [
             {
                 "name": "Religious propagation",
                 "uniques": [
-                    "Provides the cheapest [Faith] building in your first [4] cities for free"
+                    "Provides the cheapest [Faith] building in your first [5] cities for free"
                 ],
                 "row": 1,
                 "column": 2
@@ -101,7 +101,7 @@
             {
                 "name": "Religious hope",
                 "uniques": [
-                    "Gain enough Faith for [25]% of a Great Prophet"
+                    "Gain enough Faith for [35]% of a Great Prophet"
                 ],
                 "row": 1,
                 "column": 4
@@ -144,7 +144,7 @@
             },
             {
                 "name": "Religious world Complete",
-                "uniques": ["Resting point for Influence with City-States following this religion [5]"]
+                "uniques": ["Resting point for Influence with City-States following this religion [20]"]
             }
         ]
     },
@@ -159,14 +159,14 @@
             "Scientific": 0
         },
         "uniques": [
-            "[2] population in a random city"
+            "[5] population in a random city"
         ],
         "policies": [
             {
                 "name": "Explorer",
                 "uniques": [
                     "Free [Scout] appears",
-                    "Gain [50] [Gold]"
+                    "Gain [250] [Gold]"
                 ],
                 "row": 1,
                 "column": 1
@@ -175,7 +175,7 @@
                 "name": "Establishment",
                 "uniques": [
                     "Free [Settler] appears",
-                    "Gain [10] [Culture]"
+                    "Gain [100] [Culture]"
                 ],
                 "row": 1,
                 "column": 3
@@ -184,7 +184,7 @@
                 "name": "Defense expansion",
                 "uniques": [
                     "Free [Frontier double archer] appears",
-                    "Gain [50] [Gold]"
+                    "Gain [250] [Gold]"
                 ],
                 "row": 1,
                 "column": 5
@@ -193,7 +193,7 @@
                 "name": "War preparations",
                 "requires": ["Defense expansion"],
                 "uniques": [
-                    "[3] units cost no maintenance"
+                    "[5] units cost no maintenance"
                 ],
                 "row": 2,
                 "column": 5
@@ -201,8 +201,8 @@
             {
                 "name": "New world Complete",
                 "uniques": [
-                    "Gain [20] [Science]",
-                    "Free Technology"
+                    "Gain [100] [Science]",
+                    "Free [5] Technology"
                 ]
             }
         ]
@@ -226,7 +226,7 @@
             {
                 "name": "Role models",
                 "uniques": [
-                    "[+10]% Production towards any buildings that already exist in the Capital"
+                    "[+25]% Production towards any buildings that already exist in the Capital"
                 ],
                 "row": 1,
                 "column": 1
@@ -234,7 +234,7 @@
             {
                 "name": "Coastal trade",
                 "uniques": [
-                    "[+25]% [Gold] [in all coastal cities]"
+                    "[+50]% [Gold] [in all coastal cities]"
                 ],
                 "row": 1,
                 "column": 3
@@ -243,7 +243,7 @@
                 "name": "Holy wealth",
                 "requires": ["Coastal trade"],
                 "uniques": [
-                    "[+1 Gold] per [1] population [in holy cities]"
+                    "[+3 Gold] per [1] population [in holy cities]"
                 ],
                 "row": 2,
                 "column": 3
@@ -251,7 +251,7 @@
             {
                 "name": "Overhappiness",
                 "uniques": [
-                    "[+20]% of excess happiness converted to [Culture]"
+                    "[+50]% of excess happiness converted to [Culture]"
                 ],
                 "row": 1,
                 "column": 5
@@ -259,8 +259,8 @@
             {
                 "name": "Beautiful world Complete",
                 "uniques": [
-                    "[-20]% Culture cost of adopting new Policies",
-                    "Free Social Policy"
+                    "[-40]% Culture cost of adopting new Policies",
+                    "Free [5] Social Policy"
                 ]
             }
         ]
